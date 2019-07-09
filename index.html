@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    <title>Meu Site</title>
+</head>
+<style>
+html {
+scroll-behavior: smooth;
+}
+body {
+    margin:0;
+    font-family: 'Fjalla One', sans-serif;
+} 
+footer {
+    background-color: black;
+    padding: 30px;
+    color:white;
+}
+
+#topMenu {
+    display:flex;
+    background-color:#302f2f;
+    margin:0;
+}
+#topMenu li {
+    color:white;
+    text-decoration: none;
+    display: block;
+    padding:15px;
+}
+#topMenu li:first-child {
+    margin-right: auto;
+}
+.section1 {
+  display:flex;
+  height:100vh; 
+  background-color:#22d271; 
+}
+.centralize {
+margin:auto;
+text-align: center;
+}
+
+.imagemProjeto {
+    width:15vw;
+    height:15vw;
+    padding-left:15px;
+}
+.section2 {
+    display:flex;
+    height:33vh; 
+    background-color:white; 
+}
+.section3 {
+    display:flex;
+    height:33vh ; 
+    background-color:#e5e6ea; 
+}
+
+.botaoVermelho {
+   background-color:#c64e63;
+   border-radius: 5px;
+   color:white;
+   padding:10px;
+   font-family: 'Fjalla One', sans-serif;
+}
+
+</style>
+<body>
+    <nav >
+        <ul id="topMenu">
+            <li>Logo</li>
+            <li>Home</li>
+            <li>Projetos</li>
+            <li>Contato</li>
+        </ul>
+    </nav>
+    <div class="section1">
+        <div class="centralize">
+            <h1 style="color:white">Jhonatan</h1>
+            <a href="#projetos"><button class="botaoVermelho">Meus Projetos</button></a>
+        </div>
+    </div>
+    <div id="projetos" class="section2 centralize">
+        <table class="centralize">
+            <tr>
+                <td style="width:40%"><img class="imagemProjeto" src="https://cdn-images-1.medium.com/max/800/0*ngXgBNNdx6iiWP8q.png"></img></td>
+                <td style="width:60%;text-align: left">
+                    <ul style="color:#22d271;">
+                    Projeto 1
+                    <hr>
+                    <li>Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto</li>
+                    <li>Tecnologia 1</li>
+                    <li>Tecnologia 2</li>
+                    <li>Tecnologia 3</li>
+                    <li>Tecnologia 4</li>
+                </ul></td>
+            </tr>
+        </table>
+    </div>
+    <div id="projetos" class="section3 centralize">
+            <table class="centralize">
+                <tr>
+                    
+                    <td style="width:60%;text-align: left">
+                        <ul style="color:#22d271;">
+                        Projeto 2
+                        <hr>
+                        <li>Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto</li>
+                        <li>Tecnologia 1</li>
+                        <li>Tecnologia 2</li>
+                        <li>Tecnologia 3</li>
+                        <li>Tecnologia 4</li>
+                    </ul></td>
+                    <td style="width:40%"><img class="imagemProjeto" src="https://cdn-images-1.medium.com/max/800/0*ngXgBNNdx6iiWP8q.png"></img></td>
+                </tr>
+            </table>
+        </div>
+        <div id="projetos" class="section2 centralize">
+                <table class="centralize">
+                    <tr>
+                        <td style="width:40%"><img class="imagemProjeto" src="https://cdn-images-1.medium.com/max/800/0*ngXgBNNdx6iiWP8q.png"></img></td>
+                        <td style="width:60%;text-align: left">
+                            <ul style="color:#22d271;">
+                            Projeto 3
+                            <hr>
+                            <li>Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto</li>
+                            <li>Tecnologia 1</li>
+                            <li>Tecnologia 2</li>
+                            <li>Tecnologia 3</li>
+                            <li>Tecnologia 4</li>
+                        </ul></td>
+                    </tr>
+                </table>
+            </div>
+            <footer>
+                <h5 class="centralize">@Criado por Jhonatan</h5>
+            </footer>
+</body>
+</html>
